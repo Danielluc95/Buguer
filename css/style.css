@@ -1,0 +1,23 @@
+/* padrao de computador*/
+
+@media (max-width: 4096px){
+    body{
+        
+    background-color: blue;
+
+    }
+/* padrao de tablet */
+
+}@media (max-width: 768px){
+    
+
+/* padrao de celular */
+}
+@media (max-width: 430px){
+    body{
+        background-color: red;
+    }
+   
+
+}
+
