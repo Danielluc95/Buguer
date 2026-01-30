@@ -17,6 +17,66 @@
     body{
         background-color: red;
     }
+    header img{
+        margin-top: 5px;
+        margin-left: 5px;
+
+    }
+    .s1 img{
+        border-radius: 50%;
+        outline: 3px solid white;
+        outline-offset: 1px;
+        width: 50px;
+        height: 50px;
+        
+    }
+    .direita{
+        text-align: right;
+    }
+    .s1 h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding: 30px 0px;
+    }
+    .slider{
+        width: 100%;
+        overflow: hidden;
+        height: 250px;
+        padding: 20px 0px;
+    }
+    .slider_principal{
+        display: flex;
+        width: 200%;
+        
+    }
+    .slidee{
+        width: 50%;
+        transition: margin-left 2s;
+    }
+    .slider input{
+        display: none;
+    }
+    .quadradinhos{
+        text-align: center;
+        margin-top: -50px;
+    }
+    .quadradinhos label{
+        margin-left: 5%;
+        margin-right: 5%;
+        color: white;
+    }
+    #bola1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+    #bola2:checked ~ .primeiro{
+        margin-left: -50%;
+    }
+    .quadradinhos img{
+        width: 5%;
+      /*  outline: 3px solid white;*/
+    }
+   
    
 
 }
